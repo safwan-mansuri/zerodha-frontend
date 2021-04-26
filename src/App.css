@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  background-color: yellow;
+  height: 30px;
+  border-radius: 10px;
+}
+
+table {
+  margin-top: 20px;
+  color: white;
+  overflow: auto;
+  display: inline-block;
+  border: 1px solid yellow;
+}
+
+th, td {
+  border: 1px solid yellow;
+}
+
+span, h1 {
+  color: white;
+}

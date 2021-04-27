@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     async function fetchData() {
       const stockData = [];
-      const response = await axios.get('http://localhost:8000/stock_details/');
+      const response = await axios.get('https://zerodha-backend-stock.herokuapp.com/stock_details/');
       const data = JSON.parse(response.data); 
       data.data.map(ele => stockData.push(JSON.parse(ele)));
       setFilterData(stockData);

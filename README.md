@@ -28,3 +28,15 @@ I have used three services two achieve this, can access as follows
 ### DEMO
 
 https://user-images.githubusercontent.com/82272505/116283557-a2f1cf80-a7a9-11eb-9afa-60f96c2974c9.mov
+
+
+### Zerodha-Frontend 
+
+This is a frontend service created from Reactjs.
+
+# run locally
+
+1. Run `npm install`
+2. Run `npm start`
+
+
